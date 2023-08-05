@@ -1,0 +1,70 @@
+
+
+data 05/08/2023
+1) - problema com dependencias
+
+2023-08-05T17:20:51.280-03:00  WARN 28988 --- [  restartedMain] ConfigServletWebServerApplicationContext : 
+Exception encountered during context initialization - cancelling refresh attempt: 
+org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'entityManagerFactory' defined in class path resource 
+[org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: 
+Class org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider does not implement the 
+requested interface jakarta.persistence.spi.PersistenceProvider
+1) - Solução:
+
+
+
+h2
+junit
+
+
+
+##########################################################################################
+
+
+Ao criar um currículo, é importante incluir informações relevantes que destaquem suas habilidades, 
+experiências e conquistas profissionais. Os dados básicos que devem estar presentes no currículo incluem:
+
+1. **Informações de contato:**
+   - Nome completo
+   - Endereço residencial
+   - Número de telefone (celular e/ou fixo)
+   - Endereço de e-mail profissional
+
+2. **Objetivo profissional (opcional):**
+   - Um breve resumo que indica o tipo de posição ou setor em que você está interessado.
+
+3. **Histórico acadêmico:**
+   - Grau mais alto alcançado (por exemplo, Bacharelado, Mestrado, Doutorado)
+   - Nome da instituição de ensino
+   - Curso ou área de estudo
+   - Ano de conclusão ou previsão de conclusão
+
+4. **Experiência profissional:**
+   - Nome da empresa ou organização em que trabalhou
+   - Cargo ocupado
+   - Período em que trabalhou (mês/ano de início e término)
+   - Descrição das principais responsabilidades e realizações em cada cargo
+
+5. **Habilidades:**
+   - Lista de habilidades relevantes para a posição pretendida, como conhecimentos em softwares, línguas estrangeiras, 
+   habilidades técnicas ou habilidades específicas para a área em que você está se candidatando.
+
+6. **Projetos ou trabalhos acadêmicos relevantes (opcional):**
+   - Caso tenha participado de projetos ou trabalhos acadêmicos relevantes, pode ser interessante incluí-los para mostrar 
+    suas capacidades e áreas de interesse.
+
+7. **Certificações e treinamentos (opcional):**
+   - Qualquer treinamento profissional, curso ou certificação relevante para a área em que você está buscando oportunidades.
+
+8. **Atividades voluntárias ou de liderança (opcional):**
+   - Participação em atividades voluntárias, organizações estudantis ou experiências de liderança que demonstrem habilidades adicionais.
+
+9. **Informações adicionais (opcional):**
+   - Pode-se incluir outras informações relevantes, como prêmios ou reconhecimentos, interesses pessoais, disponibilidade para viagens, etc.
+
+Lembre-se de manter o currículo claro, conciso e bem estruturado. Evite informações irrelevantes e certifique-se de que o currículo 
+seja adaptado para cada oportunidade específica, destacando as habilidades e experiências mais relevantes para a vaga em questão.
+
+
+#############################################################################
